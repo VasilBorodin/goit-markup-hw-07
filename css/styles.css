@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
@@ -36,7 +36,7 @@ img {
 
 .visually-hidden {
   position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px 1px 1px 1px); IE6, IE7
   clip: rect(1px, 1px, 1px, 1px);
   padding: 0 !important;
   border: 0 !important;
@@ -47,11 +47,11 @@ img {
 .social-list-icon {
   width: 20px;
   height: 20px;
-}
+} */
 /*  */
 
 /* ===============HEADER=============== */
-.container {
+/* .container {
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
@@ -63,7 +63,7 @@ img {
   border: 1px solid #ececec;
   /* padding-top: 24px;
   padding-bottom: 24px; */
-  background-color: #ffffff;
+/* background-color: #ffffff;
   display: flex;
   align-items: center;
 }
@@ -75,19 +75,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-.navigation {
-  display: flex;
-  align-items: center;
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1, 19;
-}
-.navigation-list {
-  display: flex;
-  align-items: center;
-  animation-duration: 5s;
-}
+
 .navigation-logo {
   margin-right: 93px;
   font-family: "Raleway", sans-serif;
@@ -121,6 +109,20 @@ img {
   line-height: 1, 19;
   letter-spacing: 0.03em;
 }
+.navigation {
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 19;
+}
+.navigation-list {
+  display: flex;
+  align-items: center;
+  animation-duration: 5s;
+}
+
 .navigation-item {
   position: relative;
   display: flex;
@@ -201,11 +203,11 @@ img {
   display: block;
   content: "";
   margin-right: 10px;
-}
+}  */
 /* ===============END HEADER=============== */
 
 /* ===============HERO=============== */
-.hero {
+/* .hero {
   padding: 200px 0;
   background-size: cover;
   background-position: center;
@@ -241,7 +243,7 @@ img {
   font-size: 44px;
   line-height: 1, 36;
   /* or 136% */
-  text-align: center;
+/* text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-color);
@@ -279,7 +281,7 @@ img {
 /* ===============END HERO=============== */
 
 /* ===============OCCUPATION=============== */
-.feature {
+/* .feature {
   display: flex;
   align-items: center;
   padding-top: 94px;
@@ -303,7 +305,7 @@ img {
   font-size: 14px;
   line-height: 1, 71;
   /* or 171% */
-  letter-spacing: 0.03em;
+/* letter-spacing: 0.03em;
   text-transform: none;
   color: var(--first-color);
 }
@@ -317,12 +319,12 @@ img {
 .advantages {
   display: block;
   margin: 0 auto;
-}
+} */
 
 /* ===============END OCCUPATION=============== */
 
 /* ===============STUDY-SECTION=============== */
-.study-section {
+/* .study-section {
   padding-top: 47px;
   padding-bottom: 94px;
 }
@@ -363,12 +365,12 @@ img {
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
+} */
 
 /* ===============END STUDY-SECTION=============== */
 
 /* ===============STUDY-TEAM=============== */
-.team-section {
+/* .team-section {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -453,12 +455,12 @@ img {
 .team-card-list:focus .team-card-list-link {
   color: #ffffff;
   background-color: #2196f3;
-}
+} */
 
 /* ===============END STUDY-TEAM=============== */
 
 /* ===============REGULAR CUSTOMERS=============== */
-.regular-customers {
+/* .regular-customers {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -514,11 +516,11 @@ img {
 .clients-link-icon {
   fill: rgba(175, 177, 184, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* ===============END REGULAR CUSTOMERS=============== */
 
 /* ===============FOOTER=============== */
-.footer {
+/* .footer {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -700,7 +702,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-}
+} */
 /* ===============END FOOTER=============== */
 
 /* ===============PORTFOLIO=============== */
@@ -826,7 +828,7 @@ img {
 /* ===============END PORTFOLIO=============== */
 
 /* ===============MODAL WINDOWS=============== */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -1031,4 +1033,4 @@ img {
   border-radius: 4px;
   cursor: pointer;
 }
-/* ===============END MODAL WINDOWS=============== */ ;
+/* ===============END MODAL WINDOWS=============== */
