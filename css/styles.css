@@ -706,7 +706,7 @@ img {
 /* ===============END FOOTER=============== */
 
 /* ===============PORTFOLIO=============== */
-.hero-btn {
+/* .hero-btn {
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -785,7 +785,7 @@ img {
 }
 /* ===============POSITION=============== */
 
-.team-list-content-wrapper {
+/* .team-list-content-wrapper {
   position: relative;
   overflow: hidden;
 }
@@ -822,7 +822,7 @@ img {
 .products-list-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+}  */
 
 /* ===============END POSITION=============== */
 /* ===============END PORTFOLIO=============== */
