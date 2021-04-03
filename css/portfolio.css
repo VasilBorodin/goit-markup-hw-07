@@ -62,41 +62,32 @@ img {
   padding-right: 15px;
 }
 
-.navigation-logo {
+.logo {
   margin-right: 93px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
   font-size: 26px;
   line-height: 1, 19;
   letter-spacing: 0.03em;
 }
 
-.Studio {
+.logo_accent-text {
+  color: var(--accent-color);
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1, 19;
   letter-spacing: 0.03em;
-  color: #000000;
 }
 
-.Studio-white {
+.logo_theme {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1, 19;
   letter-spacing: 0.03em;
+}
+
+.logo_theme_dark {
   color: var(--secondary-color);
 }
 
-.blueWeb {
-  color: var(--accent-color);
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1, 19;
-  letter-spacing: 0.03em;
+.logo_theme_light {
+  color: #000000;
 }
 
 .footer {
@@ -178,15 +169,15 @@ img {
 }
 
 .modal-form-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.15;
   width: 448px;
   height: 23px;
   left: 576px;
   top: 261px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 1, 15;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -242,33 +233,37 @@ img {
 }
 
 .modal-form-message::-webkit-input-placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 1, 14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-form-message:-ms-input-placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 1, 14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-form-message::-ms-input-placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 1, 14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-form-message::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 1, 14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -326,14 +321,14 @@ img {
 }
 
 .modal-form-btn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
   margin: 0 auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1, 87px;
   min-width: 200px;
   margin-top: 30px;
   width: 200px;
@@ -365,8 +360,6 @@ img {
   left: 0px;
   top: 80px;
   border: 1px solid #ececec;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
   background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -399,7 +392,7 @@ img {
   line-height: 1, 19;
 }
 
-.navigation-list {
+.navigation-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

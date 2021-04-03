@@ -1,25 +1,25 @@
-.navigation-logo {
-  @include font(26px, 700, 31px);
+.logo {
   margin-right: 93px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
+  font-size: 26px;
+  line-height: 1, 19;
   letter-spacing: 0.03em;
-}
-.Studio {
-  @include font(26px, 700, 31px);
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0.03em;
-  color: #000000;
-}
-.Studio-white {
-  @include font(26px, 700, 31px);
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0.03em;
-  color: var(--secondary-color);
-}
-.blueWeb {
-  @include font(26px, 700, 31px);
-  color: var(--accent-color);
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0.03em;
+
+  &_accent-text {
+    color: var(--accent-color);
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.03em;
+  }
+
+  &_theme {
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.03em;
+    &_dark {
+      color: var(--secondary-color);
+    }
+    &_light {
+      color: #000000;
+    }
+  }
 }
