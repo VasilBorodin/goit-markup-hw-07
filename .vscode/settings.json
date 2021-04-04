@@ -1,3 +1,24 @@
+// {
+//     "liveSassCompile.settings.formats": [
+//         {
+//             "format": "expanded",
+//             "extensionName": ".css",
+//             "savePath": "/css"
+//         },
+//         {
+//             "format": "compressed",
+//             "extensionName": ".min.css",
+//             "savePath": "/css"
+//         }
+//     ],
+//     "liveSassCompile.settings.excludeList": [
+//         "**/node_modules/**",
+//         ".vscode/**"
+//     ],
+//     "liveSassCompile.settings.generateMap": true,
+//     "liveServer.settings.port": 1235,
+//     "liveSassCompile.settings.autoprefix": null
+// }
 {
     "liveSassCompile.settings.formats": [
         {
@@ -6,8 +27,8 @@
             "savePath": "/css"
         },
         {
-            "format": "compressed",
             "extensionName": ".min.css",
+            "format": "compressed",
             "savePath": "/css"
         }
     ],
@@ -16,6 +37,8 @@
         ".vscode/**"
     ],
     "liveSassCompile.settings.generateMap": true,
-    "liveServer.settings.port": 1235,
-    "liveSassCompile.settings.autoprefix": null
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ]
 }
