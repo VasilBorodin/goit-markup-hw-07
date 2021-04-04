@@ -1,10 +1,10 @@
-.feature {
+.section__feature {
   display: flex;
   align-items: center;
   padding-top: 94px;
   padding-bottom: 47px;
 }
-.feature-head {
+.section__feature-head {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
@@ -17,7 +17,7 @@
   }
 }
 
-.suptitle-text {
+.section__suptitle-text {
   margin-top: 10px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -27,14 +27,14 @@
   text-transform: none;
   color: var(--first-color);
 }
-.feature-head-tilte {
+.section__feature-head-tilte {
   height: 120px;
   margin: 0 0 30px 0;
   padding: 25px 0;
   background: #f5f4fa;
   border-radius: 4px;
 }
-.advantages {
+.section__advantages {
   display: block;
   margin: 0 auto;
 }

@@ -1,3 +1,8 @@
+.navigation-logo {
+  display: flex;
+  align-items: center;
+  animation-duration: 5s;
+}
 .logo {
   margin-right: 93px;
   font-family: "Raleway", sans-serif;
@@ -5,21 +10,14 @@
   font-size: 26px;
   line-height: 1, 19;
   letter-spacing: 0.03em;
+}
 
-  &_accent-text {
-    color: var(--accent-color);
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 0.03em;
-  }
-
-  &_theme {
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 0.03em;
-    &_dark {
-      color: var(--secondary-color);
-    }
-    &_light {
-      color: #000000;
-    }
-  }
+.logo__accent-text {
+  color: var(--accent-color);
+}
+.logo__theme_dark {
+  color: var(--secondary-color);
+}
+.logo__theme_light {
+  color: black;
 }
